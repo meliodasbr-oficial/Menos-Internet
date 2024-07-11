@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações sobre o Clima</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Informações sobre o Clima</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="clima.html">Clima</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="weather">
+            <h2>Clima Atual</h2>
+            <form id="locationForm">
+                <label for="city">Cidade:</label>
+                <input type="text" id="city" name="city" required>
+                <button type="submit">Ver Clima</button>
+            </form>
+            <div id="weatherInfo">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Calculadora de Energia - by Manu Fonseca e Marissol</p>
+    </footer>
+    <script src="clima.js"></script>
+</body>
+</html>
